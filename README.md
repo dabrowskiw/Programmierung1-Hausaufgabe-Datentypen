@@ -1,5 +1,7 @@
 In dieser Übung befassen Sie sich mit den unterschiedlichen Datentypen in Java.
 
+In den ersten Aufgaben ist die Darstellung von Zeichen im Arbeitsspeicher wichtig (siehe ASCII-Tabelle). Schauen Sie sich insbesondere die Schleifen-Beispiele im [Cheatsheet Grundoperationen](https://github.com/dabrowskiw/Programmierung1-Materialien/blob/WiSe2627/Cheatsheets/Cheatsheet1_grundoperationen.md) an, wo Rechenoperationen mit Zeichen gezeigt sind und probieren Sie ein paar Variationen aus (z.B. `char c = 'A'; c++; System.out.println(c);`), um sich den Zusammenhang zwischen ASCII-Wert und ausgegebenem Zeichen zu veranschaulichen.
+
 # Aufgabe 1
 
 Implementieren Sie in der Klasse `Main` eine Methode `public static char switchCase(char c)`. Diese soll für das übergebene Zeichen `c` zurückgeben:
