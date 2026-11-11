@@ -53,22 +53,22 @@ public static void booleanExample() {
 
 Implementieren Sie in der Klasse `Main` eine Methode `public static int calculateSeries(int length)`, die die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) der übergebenen Zahl berechnet und zurückgibt. Falls Sie wissen, was eine rekursive Implementation ist: Verwenden Sie bitte keine Rekursion für die Lösung!
 
-Lassen Sie sich das Ergebnis für die folgenden Werde von length ausgeben: 5, 10, 20, 43, 44, 45, 46, 47, 48. Was fällt Ihnen auf? Woran könnte das liegen?
+Lassen Sie sich das Ergebnis für die folgenden Werde von length ausgeben: 5, 10, 11, 12, 13, 14. Was fällt Ihnen auf? Woran könnte das liegen?
 
 # Aufgabe 5
 
 Implementieren Sie in der Klasse `Main` eine Methode `public static double calculateSeriesDouble(int length)`, die die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) der übergebenen Zahl berechnet und zurückgibt. Verwenden Sie diesmal für die Berechnung einen `double` anstatt von einem `int`.
 
-Lassen Sie sich das Ergebnis für die folgenden Werde von length ausgeben: 43, 44, 45, 46, 47, 48. Was fällt Ihnen im Vergleich zur letzten Lösung auf? Woran könnte das liegen?
+Lassen Sie sich das Ergebnis für die folgenden Werde von length ausgeben: 5, 10, 11, 12, 13, 14. Was fällt Ihnen im Vergleich zur letzten Lösung auf? Woran könnte das liegen?
 
 Lassen Sie sich die Werte der folgenden beiden Differenzen ausgeben:
 
-* `calculateSeries(46) - calculateSeriesDouble(46)`
-* `calculateSeries(47) - calculateSeriesDouble(47)`
+* `calculateSeries(12) - calculateSeriesDouble(12)`
+* `calculateSeries(13) - calculateSeriesDouble(13)`
 
 Was hätten Sie erwartet, was können Sie beobachten? Woran könnte das liegen?
 
-# Aufgabe 6 (Zusatzaufgabe, freiwillig)
+# Aufgabe 6 (Zusatzaufgabe)
 
 Implementieren Sie in der Klasse `Main` eine Methode `public static void caesarChiffre(String text, int offset)`, die einen übergebenen Text nach der Methode der [Caesar-Verschlüsselung](https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung) verschlüsselt ausgibt.
 
