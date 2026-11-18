@@ -139,7 +139,7 @@ class MainTest {
     @Test
     void testCalculateSeriesMultiplicationLogic() {
         int result = Main.calculateSeries(5);
-        assertEquals(24, result, "Failed to correctly compute calculateSeries for length 5 (factorial logic).");
+        assertEquals(120, result, "Failed to correctly compute calculateSeries for length 5 (factorial logic).");
     }
 
     @Test
@@ -163,7 +163,7 @@ class MainTest {
     @Test
     void testCalculateSeriesDoubleBasicMultiplication() {
         double result = Main.calculateSeriesDouble(5);
-        assertEquals(24.0, result, "Failed to correctly compute calculateSeriesDouble for length 5 (factorial logic).");
+        assertEquals(120.0, result, "Failed to correctly compute calculateSeriesDouble for length 5 (factorial logic).");
     }
 
     @Test
