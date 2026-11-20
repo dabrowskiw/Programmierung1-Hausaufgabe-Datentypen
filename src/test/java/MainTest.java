@@ -169,7 +169,7 @@ class MainTest {
     @Test
     void testCalculateSeriesDoubleLargeInput() {
         double result = Main.calculateSeriesDouble(10);
-        assertEquals(362880.0, result, "Failed to correctly compute calculateSeriesDouble for large input 10.");
+        assertEquals(3628800.0, result, "Failed to correctly compute calculateSeriesDouble for large input 10.");
     }
 
     @Test
